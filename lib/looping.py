@@ -7,10 +7,13 @@ def happy_new_year():
         print(sec)
         print("Happy New Year!")
 
+happy_new_year()
 
 def square_integers(int_list):
     squares = [square ** 2 for square in int_list]
     return squares
+
+square_integers([1,2,3,4,5])
 
 def fizzbuzz():
     x = 0
@@ -24,4 +27,5 @@ def fizzbuzz():
             print("Buzz")
         else:
             print(x)
+fizzbuzz()
         
